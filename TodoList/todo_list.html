@@ -2,8 +2,22 @@
 <html>
 <head>
 <title>ToDo List</title>
+<style>
+    .btn {
+        background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    .body { text-align: center }
+</style>
 </head>
-<body>
+<body class='body'>
+    <div>
 <h1>ToDo List</h1>
 <input type="text" id="taskInput" placeholder="Add a new task">
 <button id="addTaskBtn">Add Task</button>
@@ -14,6 +28,8 @@
 </ul>
 
 <button id="clearCompletedBtn">Clear Completed</button>
+<button id="clearAllBtn">Clear All</button>
+</div>
 <script src="./todo_list.js"></script>
 </body>
 </html>
